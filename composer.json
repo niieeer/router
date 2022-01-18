@@ -1,0 +1,15 @@
+{
+    "autoload":{
+    "psr-4":{
+        "Router\\": "routes/",
+        "App\\": "app/"
+        }
+    },
+
+    "require": {
+        "doctrine/orm": "^2.10",
+        "symfony/proxy-manager-bridge": "^6.0",
+        "symfony/cache": "^6.0",
+        "doctrine/annotations": "^1.13"
+    }
+}
